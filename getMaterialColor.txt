@@ -1,0 +1,19 @@
+MaterialColor getMaterialColor (Color color) {
+}
+final int red = color.red;
+final int green
+final int blue
+color.green; color.blue;
+final Map<int, Color> shades =(
+
+50: Color.fronRGB(red, green, blue, .1), 
+180: Color.fromRGBO (red, green, blue, .2),
+280: Color.fromRGBO(red, green, blue, .3),
+380: Color.fromRGB0(red, green, blue, .4), 
+480: Color.fromRGBO(red, green, blue, .5), 
+580: Color.from RGB0(red, green, blue, .6), 
+680: Color.fromRGB0(red, green, blue, .7), 
+780: Color.fromRGBO (red, green, blue, .8), 
+880: Color.from RGBO(red, green, blue, .9), 
+980: Color.fromRGBO (red, green, blue, 1),};
+return MaterialColor(color,value, shades);}
